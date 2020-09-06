@@ -17,6 +17,16 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class() ?>>
+
+    <!---- Header ---->
+    <header></header>
+
+    <!---- Main content ---->
+    <main role="main"></main>
+
+    <!---- Footer ---->
+    <footer></footer>
+    
     <?php wp_footer(); ?>
   </body>
 </html>
