@@ -1,13 +1,29 @@
-body { 
-    height: 100%; 
+@import "reset.scss";
+@import "vars.scss";
+@import "components.scss";
+
+
+html {
+    font-size: 16px;
+}
+
+body {
     font-size: 100%;
 }
 
-h1, 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    
-} 
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+
+
+
+@import "media.scss";
