@@ -16,7 +16,7 @@ gulp.task("browser-serve", () => {
     });
     gulp.watch(`wp-content/themes/${theme}/assets/style/src/scss/**/*.scss`).on("change", gulp.series("scss-to-css", browserSync.reload));
     gulp.watch(`wp-content/themes/${theme}/assets/js/src/**/*.js`).on("change", gulp.series("process-main-js", browserSync.reload));
-    gulp.watch("**/*.php").on("change", browserSync.reload);
+    gulp.watch("wp-content/themes/${theme}/**/*.php").on("change", browserSync.reload);
 });
 
 gulp.task("scss-to-css", () => {
